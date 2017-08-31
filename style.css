@@ -1,0 +1,403 @@
+			input[type=text] {
+   				text-align: center;
+				width: 50%;
+    			border: 3px solid #fafafa;
+    			-webkit-transition: 0.5s;
+    			transition: 0.5s;
+    			outline: none;
+    			
+    			background-color: #ccc;
+			}
+			input[type=password] {
+   				text-align: center;
+				width: 50%;
+    			border: 3px solid #fafafa;
+    			-webkit-transition: 0.5s;
+    			transition: 0.5s;
+    			outline: none;
+    			
+    			background-color: #ccc;
+			}
+		
+			input[type=password]:focus {
+    			border: 3px solid #555;
+    			background-color: white;
+			}
+			
+			input[type=text]:focus {
+    			border: 3px solid #555;
+    			background-color: white;
+			}
+    
+    	
+    		#container  {
+    		
+    		padding: 10px;
+			
+    		}
+    		
+    		html {
+    			-webkit-perspective: 500px;
+    			perspective: 500px;
+    			perspective-origin: 90% 50%;
+			}
+
+			#bod  {
+				
+				-webkit-transition: 0.5s;
+    			transition: 0.5s;
+			}
+
+			input[type=number] {
+   				text-align: center;
+				width: 50%;
+    			border: 3px solid #fafafa;
+    			-webkit-transition: 0.5s;
+    			transition: 0.5s;
+    			outline: none;
+    			
+    			background-color: #ccc;
+			}
+
+			input[type=number]:focus {
+    			border: 3px solid #555;
+    			background-color: white;
+			}
+			
+			input[type=range] {
+	  			-webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+	  			width: 100%; /* Specific width is required for Firefox. */
+	  			background: transparent; /* Otherwise white in Chrome */
+			}
+
+			input[type=range]::-webkit-slider-thumb {
+				-webkit-appearance: none;
+			}
+
+			input[type=range]:focus {
+				outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+			}
+
+			input[type=range]::-ms-track {
+				width: 100%;
+				cursor: pointer;
+
+				/* Hides the slider so custom styles can be added */
+				background: transparent; 
+				border-color: transparent;
+				color: transparent;
+			}
+			
+			/* Special styling for WebKit/Blink */
+			input[type=range]::-webkit-slider-thumb {
+				-webkit-appearance: none;
+  				border: 1px solid #000000;
+  				height: 36px;
+  				width: 16px;
+  				border-radius: 3px;
+  				background: #bfbfbf;
+  				cursor: pointer;
+  				margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+			}
+
+			/* All the same stuff for Firefox */
+			input[type=range]::-moz-range-thumb {
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  				border: 1px solid #000000;
+  				height: 36px;
+  				width: 16px;
+  				border-radius: 3px;
+  				background: #bfbfbf;
+  				cursor: pointer;
+			}
+
+			/* All the same stuff for IE */
+			input[type=range]::-ms-thumb {
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  				border: 1px solid #000000;
+  				height: 36px;
+  				width: 16px;
+  				border-radius: 3px;
+  				background: #bfbfbf;
+  				cursor: pointer;
+			}
+			
+			input[type=range]::-webkit-slider-runnable-track {
+  				width: 100%;
+  				height: 8.4px;
+  				cursor: pointer;
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  				background: #000000;
+  				border-radius: 1.3px;
+  				border: 0.2px solid #010101;
+			}
+
+			input[type=range]:focus::-webkit-slider-runnable-track {
+  				background: #000000;
+			}
+
+			input[type=range]::-moz-range-track {
+  				width: 100%;
+  				height: 8.4px;
+  				cursor: pointer;
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  				background: #000000;
+  				border-radius: 1.3px;
+  				border: 0.2px solid #010101;
+			}
+
+			input[type=range]::-ms-track {
+  				width: 100%;
+  				height: 8.4px;
+  				cursor: pointer;
+  				background: transparent;
+  				border-color: transparent;
+  				border-width: 16px 0;
+  				color: transparent;
+			}
+			input[type=range]::-ms-fill-lower {
+  				background: #000000;
+  				border: 0.2px solid #010101;
+  				border-radius: 2.6px;
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+			}
+			input[type=range]:focus::-ms-fill-lower {
+  				background: #000000;
+			}
+			input[type=range]::-ms-fill-upper {
+  				background: #000000;
+  				border: 0.2px solid #010101;
+  				border-radius: 2.6px;
+  				box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+			}
+			input[type=range]:focus::-ms-fill-upper {
+  				background: #000000;
+			}
+						
+			#Abutton  {
+				background-color: gray;
+				border: 2px solid black;
+				border-radius: 5px;
+				text-shadow: 1px 1px white;
+				-webkit-transition: 0.5s;
+				outline: none;
+    			transition: 0.5s;
+			}
+			
+			
+		
+			#buttonDiv  {
+				float: left;
+				width: 33%;
+				text-align: center;
+				}
+		
+			#sliderDiv  {
+				text-align: center;
+				float: left;
+				width: 33%;
+			}
+			
+			#textBoxDiv  {
+				margin: auto;
+				
+    			width: 20%;
+    			
+    			text-align: center;
+    		}
+			
+			
+			
+			#colorDiv {
+			
+				
+				
+				background-color = transparent;
+				-webkit-transition: 0.5s;
+    			transition: 0.5s;
+    			width: 100%;
+    			height: 800px;
+    			
+    			
+    			
+			
+			}
+			#Div1 {
+			
+				margin: auto;
+				margin-top: 20px;
+				border-radius: 20px;
+				
+    			width: 40%;
+    			height: 100px;
+    			border: 3px solid black;
+    			padding: 10px;
+    			
+    			border-collapse: 2px;
+    			-webkit-transition: 0.5s;
+    			transition: 0.5s;
+    			
+			
+			}
+			
+			.red  {
+				background-color: red;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+				
+			.green  {
+				background-color: green;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			
+			.blue  {
+				background-color: blue;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			
+			
+		
+			.center  {
+    			margin: auto;
+    			margin-top: 20px;
+    			width: 45%;
+    			border: 3px solid black;
+    			
+    			text-align: center;
+    			background-color: #bfbfbf;
+    			border-radius: 25px;
+    			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    			
+			}
+			
+			.elChapo  {
+				margin: auto;
+    			margin-top: 20px;
+    			width: 25%;
+    			border: 3px solid black;
+    			
+    			text-align: center;
+    			background-color: #bfbfbf;
+    			border-radius: 25px;
+    			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    		}
+    		
+    		.melChapo  {
+				margin: auto;
+    			margin-top: 20px;
+    			width: 25%;
+    			
+    			
+    			text-align: center;
+    			 
+    		}
+			
+			#headDiv  {
+				-webkit-transition: 0.5s;
+    			transition: 0.5s;
+    		}
+			
+			#header  {
+				color: white;
+				text-decoration: underline;
+				letter-spacing: 3px;
+				word-spacing: 10px;
+				text-shadow: 4px 4px black;
+				font-family: "Courier New", bold;
+				font-size: 3.125em;
+				font-weight: bold;
+				-webkit-transition: 0.5s;
+    			transition: 0.5s;
+				
+			}
+			
+			
+			.font  {
+				font-family: "Courier New", bold;
+				font-size: 1.375em;
+			}
+			
+			.group:after{
+				content: "";
+              	display: table;
+              	clear: both;
+			}
+			
+			#Bbutton  {
+			
+				background-color: black;
+				border-radius: 5px;
+				color: white;
+				-webkit-transition: 0.5s;
+				outline: none;
+    			transition: 0.5s;
+    			border: 2px solid white;
+    			
+    		}
+    		
+    		#Wbutton  {
+			
+				background-color: white;
+				border-radius: 5px;
+				color: black;
+				-webkit-transition: 0.5s;
+				outline: none;
+    			transition: 0.5s;
+    			border: 2px solid black;
+    			
+    		}
+    		
+    		#Rbutton  {
+			
+				background-color: gray;
+				border-radius: 5px;
+				text-shadow: 1px 1px white;
+				-webkit-transition: 0.5s;
+				outline: none;
+    			transition: 0.5s;
+    			border: 2px solid black;
+    		}
+    		
+    		#linkDiv  {
+    			background-color: #bfbfbf;
+				border-radius: 5px;
+				width: 20%;
+    			border: 2px solid black;
+    			text-align: center;
+    			float: left;
+    		}
+    		
+    		#recDiv  {
+    			background-color: #bfbfbf;
+				border-radius: 5px;
+				width: 20%;
+    			border: 2px solid black;
+    			text-align: center;
+    			float: right;
+    		}
+    		
+    					
+			a:link    {
+				color:green; 
+				background-color:transparent; 
+				text-decoration:none
+			}
+			
+			a:visited {
+				color:purple; 
+				background-color:transparent; 
+				text-decoration:none
+			}
+			
+			a:hover   {
+				color:red; 
+				background-color:transparent; 
+				text-decoration:underline
+			}
+			
+			a:active  {
+				color:yellow; 
+				background-color:transparent; 
+				text-decoration:underline
+			}
